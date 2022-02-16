@@ -1,0 +1,28 @@
+.page {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: auto auto;
+  overflow: auto;
+}
+
+.buttons {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.buttons:active {
+  filter: brightness(90%);
+}

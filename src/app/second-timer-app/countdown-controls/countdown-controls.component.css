@@ -1,0 +1,58 @@
+.container {
+  border: 2px solid rgb(98, 45, 243);
+  width: 34rem;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-control {
+  margin-bottom: 10px;
+}
+input {
+  border: 2px solid rgb(98, 45, 243);
+  border-radius: 3px;
+  padding: 3px;
+}
+.buttons {
+  margin-left: 7rem;
+}
+
+.buttons button {
+  margin: 0 3px;
+  padding: 3px 7px;
+  background-color: rgb(98, 45, 243);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+button:active {
+  filter: brightness(90%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .input-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons {
+    display: flex;
+    position: relative;
+    right: 60px;
+  }
+}

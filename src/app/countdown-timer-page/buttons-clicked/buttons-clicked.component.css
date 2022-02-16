@@ -1,0 +1,11 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+.start,
+.pause {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

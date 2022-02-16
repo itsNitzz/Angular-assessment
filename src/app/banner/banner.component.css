@@ -1,0 +1,25 @@
+.container {
+  width: 50rem;
+  height: 20rem;
+  margin: auto auto;
+  border-radius: 5px;
+  box-shadow: 2px 0 15px 0 rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  position: relative;
+  animation: moves 8s linear infinite both;
+}
+
+@keyframes moves {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(365deg);
+  }
+}

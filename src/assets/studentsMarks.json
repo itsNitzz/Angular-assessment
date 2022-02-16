@@ -1,0 +1,34 @@
+[
+    {
+"Name": "Sakshi",
+"Class": 3,
+"Section": "D",
+"Sub1": 36,
+"Sub2": 74,
+"Sub3": 65
+},
+{
+"Name": "Apoorv",
+"Class": 4,
+"Section": "E",
+"Sub1": 23,
+"Sub2": 41,
+"Sub3": 67
+},
+{
+"Name": "Anjali",
+"Class": 3,
+"Section": "F",
+"Sub1": 26,
+"Sub2": 64,
+"Sub3": 85
+},
+{
+"Name": "Student4",
+"Class": 3,
+"Section": "A",
+"Sub1": 74,
+"Sub2": 34,
+"Sub3": 71
+}
+]

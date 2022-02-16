@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="input-control">
+    <label for="input">Enter Timer Limit </label>
+    <input [(ngModel)]="inputTimeVal" id="input" type="text" #timeInput />
+  </div>
+
+  <div class="buttons">
+    <button (click)="onTimeStartAndPause(timeInput.value)">
+      {{ buttonVal }}
+    </button>
+    <button (click)="onReset()">Reset</button>
+  </div>
+</div>

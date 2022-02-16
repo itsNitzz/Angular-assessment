@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="container-1">
+    <app-display-countdown
+      [displayCountdown]="ValOfCountdown"
+    ></app-display-countdown>
+    <app-time-controls
+      (remainingTime)="onPassingTimerVal($event)"
+      (buttonClicked)="onCountingClicks($event)"
+      (currentDateTime)="dateTimeValue($event)"
+    ></app-time-controls>
+  </div>
+  <div class="container-2">
+    <app-timer-logs [playPause]="state" [dateTime]="date"> </app-timer-logs>
+    <app-buttons-clicked [displayClicks]="numberOfClicks"></app-buttons-clicked>
+  </div>
+</div>
